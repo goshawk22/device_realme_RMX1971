@@ -95,6 +95,10 @@ vendor/lib/hw/audio.primary.sdm710.so
 vendor/lib/libaudioEngineerTest.so
 vendor/lib/libaudio_log_utils.so
 
+# Audio-SoundFX
+vendor/lib/soundfx/libvolumelistener.so|eccf8e24f178f3679f9309be0d92234b4cb58489
+vendor/lib64/soundfx/libvolumelistener.so|abb573d099b777d4f4e85960778999b3a92a393e
+
 # Audio FX modules
 etc/permissions/audiosphere.xml
 framework/audiosphere.jar
