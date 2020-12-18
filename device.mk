@@ -199,12 +199,16 @@ PRODUCT_PACKAGES += \
     libhwc2onfbadapter \
     libqdMetaData.system \
     libqdMetaData \
+    libqdutils \
     libtinyxml \
     libvulkan \
     memtrack.sdm710 \
     vendor.display.config@1.7 \
     vendor.qti.hardware.display.allocator@1.0-service \
-    libgui_vendor
+    libgui_vendor \
+    display_intf_headers_sf \
+    display_intf_headers \
+    libdisplaydebug
 
 # DRM
 PRODUCT_PACKAGES += \
