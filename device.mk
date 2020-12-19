@@ -355,6 +355,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/permissions/privapp-permissions-qti.xml:system/etc/permissions/privapp-permissions-qti.xml \
     $(LOCAL_PATH)/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml
 
+TARGET_COMMON_QTI_COMPONENTS := \
+    bt \
+    perf \
+    telephony
+
 # RCS
 PRODUCT_PACKAGES += \
     rcs_service_aidl \
