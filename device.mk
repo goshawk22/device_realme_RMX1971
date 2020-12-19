@@ -217,8 +217,8 @@ PRODUCT_PACKAGES += \
     android.hardware.drm@1.2-service.clearkey
 
 # Doze
-PRODUCT_PACKAGES += \
-    KharaMeParts
+#PRODUCT_PACKAGES += \
+#    KharaMeParts
 
 # Fingerprint
 PRODUCT_PACKAGES += \
@@ -328,14 +328,9 @@ PRODUCT_PACKAGES += \
     libOmxVidcCommon \
     libstagefrighthw
 
-# Perf
-PRODUCT_BOOT_JARS += \
-    QPerformance \
-    UxPerformance
-
-# Power
+# ParanoidDoze
 PRODUCT_PACKAGES += \
-    android.hardware.power@1.2-service-qti
+    ParanoidDoze
 
 # QMI
 PRODUCT_PACKAGES += \
