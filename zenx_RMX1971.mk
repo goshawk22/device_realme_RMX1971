@@ -21,11 +21,11 @@ TARGET_BOOT_ANIMATION_RES := 1080
 
 # Gapps Config
 TARGET_GAPPS_ARCH := arm64
-WITH_GAPPS := true
+#WITH_GAPPS := true
 IS_PHONE := true
 
 #Official-ify
-ZENX_BUILD_TYPE := Official
+#ZENX_BUILD_TYPE := Official
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
@@ -44,3 +44,5 @@ BUILD_FINGERPRINT := "google/coral/coral:10/QQ3A.200805.001/6578210:user/release
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1971" \
     TARGET_DEVICE="RMX1971"
+
+export SKIP_ABI_CHECKS=true
