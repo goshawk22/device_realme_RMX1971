@@ -191,6 +191,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
 
+# Prebuilt Packages
+PRODUCT_PACKAGES += \
+    GCamGo
+
 # IPACM
 PRODUCT_PACKAGES += \
     ipacm \
