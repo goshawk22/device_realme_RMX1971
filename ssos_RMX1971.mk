@@ -33,5 +33,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1971" \
     TARGET_DEVICE="RMX1971"
 
+# ShapeShiftOS specific properties
+PRODUCT_PRODUCT_PROPERTIES += \
+  ro.ssos.cpu=SDM712
+
 # Gapps
 TARGET_GAPPS_ARCH := arm64
