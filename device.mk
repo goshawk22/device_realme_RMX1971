@@ -441,11 +441,5 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     loggy.sh
 
-# Common QTI Components
-TARGET_BOARD_PLATFORM := sdm710
-
-TARGET_COMMON_QTI_COMPONENTS := \
-    perf
-
 # Inherit vendor
 $(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
