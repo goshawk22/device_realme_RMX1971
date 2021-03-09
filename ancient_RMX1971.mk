@@ -13,8 +13,14 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# Gapps
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+ANCIENT_GAPPS := true
+
 # Official-ify
 ANCIENT_OFFICIAL=true
+TARGET_USES_BLUR := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
