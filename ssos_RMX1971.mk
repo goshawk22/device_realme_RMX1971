@@ -20,7 +20,9 @@ PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 5 Pro
 PRODUCT_MANUFACTURER := Realme
 
+# ShapeShift Official Stuff
 TARGET_FACE_UNLOCK_SUPPORTED := true
+SSOS_BUILD_TYPE := OFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
