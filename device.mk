@@ -147,11 +147,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 PRODUCT_PROPERTY_OVERRIDES += \
     iorapd.perfetto.enable=true
 
-# Keymaster
-PRODUCT_PACKAGES += \
-    android.hardware.keymaster@4.0-impl \
-    android.hardware.keymaster@4.0-service
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.2-service.RMX1971 \
