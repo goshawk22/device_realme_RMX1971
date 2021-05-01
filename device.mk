@@ -305,7 +305,8 @@ PRODUCT_PACKAGES += \
 # QTI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml \
-    $(LOCAL_PATH)/configs/permissions/system_ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
+    $(LOCAL_PATH)/configs/permissions/system_ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml \
+    $(LOCAL_PATH)/configs/permissions/product_privapp-permissions.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/product-privapp-permissions.xml
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:vendor/etc/sec_config
