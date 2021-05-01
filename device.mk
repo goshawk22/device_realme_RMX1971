@@ -442,3 +442,7 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit vendor
 $(call inherit-product-if-exists, vendor/realme/RMX1971/RMX1971-vendor.mk)
+
+# Able
+PRODUCT_PACKAGES += \
+    AbleMusic
