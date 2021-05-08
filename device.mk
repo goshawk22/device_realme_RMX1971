@@ -49,6 +49,10 @@ PRODUCT_COPY_FILES += \
 # Properties
 -include $(LOCAL_PATH)/device-props.mk
 
+# QCOM
+PRODUCT_BOARD_PLATFORM := sdm845
+PRODUCT_USES_QCOM_HARDWARE := true
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
