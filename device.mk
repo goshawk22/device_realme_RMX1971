@@ -30,6 +30,11 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Inherit from Realme sdm710-common
 $(call inherit-product, device/realme/sdm710-common/sdm710.mk)
 
+# QTI Common
+TARGET_BOARD_PLATFORM := sdm710
+TARGET_COMMON_QTI_COMPONENTS += \
+    perf
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
