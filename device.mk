@@ -36,7 +36,9 @@ TARGET_COMMON_QTI_COMPONENTS += \
     perf
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/qcom
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -49,8 +51,8 @@ PRODUCT_PACKAGES += \
 
 # HALS
 SRC_AUDIO_HAL_DIR := vendor/qcom/opensource/audio-hal/primary-hal
-SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/sdm845/display
-SRC_MEDIA_HAL_DIR := hardware/qcom-caf/sdm845/media
+SRC_DISPLAY_HAL_DIR := hardware/qcom/display
+SRC_MEDIA_HAL_DIR := hardware/qcom/media
 
 # Media
 PRODUCT_COPY_FILES += \
