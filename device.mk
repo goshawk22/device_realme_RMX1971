@@ -33,6 +33,11 @@ $(call inherit-product, device/realme/sdm710-common/sdm710.mk)
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
 
+# HALS
+SRC_AUDIO_HAL_DIR := vendor/qcom/opensource/audio-hal/primary-hal
+SRC_DISPLAY_HAL_DIR := hardware/qcom/display
+SRC_MEDIA_HAL_DIR := hardware/qcom/media
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/mixer_paths_19691.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_19691.xml \
