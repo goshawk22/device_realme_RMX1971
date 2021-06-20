@@ -36,7 +36,11 @@ TARGET_COMMON_QTI_COMPONENTS += \
     perf
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH) \
+    hardware/qcom/display \
+    hardware/qcom/media \
+    vendor/qcom/opensource/audio-hal/primary-hal
 
 # HALS
 SRC_AUDIO_HAL_DIR := vendor/qcom/opensource/audio-hal/primary-hal
