@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/descendant_RMX1971.mk
+    $(LOCAL_DIR)/octavi_RMX1971.mk
