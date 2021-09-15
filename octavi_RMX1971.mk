@@ -17,7 +17,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 420
 OCTAVI_BUILD_TYPE := Official
 OCTAVI_DEVICE_MAINTAINER := goshawk22
-WITH_GAPPS := true
+# WITH_GAPPS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
