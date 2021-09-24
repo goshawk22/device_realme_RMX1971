@@ -4,8 +4,11 @@
 # SPDX-License-Identifer: Apache-2.0
 #
 
-# Inherit some common PixelExperience stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Carbon stuff.
+$(call inherit-product, vendor/carbon/config/common.mk)
+
+# Inherit Carbon GSM telephony parts
+$(call inherit-product, vendor/carbon/config/gsm.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -13,9 +16,12 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 
+TARGET_FACE_UNLOCK_SUPPORT := YES
+TARGET_SUPPORTS_BLUR := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
-PRODUCT_NAME := aosp_RMX1971
+PRODUCT_NAME := carbon_RMX1971
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 5 Pro
 PRODUCT_MANUFACTURER := Realme
